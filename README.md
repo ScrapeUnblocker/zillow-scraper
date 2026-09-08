@@ -139,7 +139,7 @@ credit and needs no key. CI runs lint + tests on Python 3.9 and 3.12.
 
 `ZillowScraper.search()` builds a Zillow "for sale" URL from your query, then
 calls the ScrapeUnblocker
-[`getPageSource`](https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos)
+[`getPageSource`](https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos)
 endpoint with parsed-data extraction enabled (via the official
 [`scrapeunblocker`](https://pypi.org/project/scrapeunblocker/) SDK). ScrapeUnblocker
 renders the page and returns structured listing records, which this library maps
@@ -148,7 +148,7 @@ onto the typed `Listing` dataclass and (optionally) flattens to CSV.
 ## Links
 
 - 🌐 Product: https://scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
-- 📚 Docs: https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
+- 📚 Docs: https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos
 
 ## Legal
 

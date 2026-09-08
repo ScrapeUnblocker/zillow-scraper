@@ -28,7 +28,7 @@ dev = ["pytest>=7.0", "ruff>=0.4"]
 
 [project.urls]
 Homepage = "https://scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos"
-Documentation = "https://developers.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos"
+Documentation = "https://docs.scrapeunblocker.com/?utm_source=github&utm_medium=integration&utm_campaign=example-repos"
 
 [project.scripts]
 zillow-scraper = "zillow_scraper.cli:main"

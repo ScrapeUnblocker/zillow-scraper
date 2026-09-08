@@ -35,7 +35,7 @@ PRODUCT_URL = (
     "&utm_medium=integration&utm_campaign=example-repos"
 )
 DOCS_URL = (
-    "https://developers.scrapeunblocker.com/?utm_source=github"
+    "https://docs.scrapeunblocker.com/?utm_source=github"
     "&utm_medium=integration&utm_campaign=example-repos"
 )
 
