@@ -1,7 +1,7 @@
 # zillow-scraper
 
 [![CI](https://github.com/ScrapeUnblocker/zillow-scraper/actions/workflows/ci.yml/badge.svg)](https://github.com/ScrapeUnblocker/zillow-scraper/actions/workflows/ci.yml)
-[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Scrape **Zillow** real estate listings as clean, structured JSON or CSV — price,
@@ -133,7 +133,7 @@ make run       # sample scrape
 ```
 
 The test suite mocks the ScrapeUnblocker SDK, so `make test` spends **no** API
-credit and needs no key. CI runs lint + tests on Python 3.9 and 3.12.
+credit and needs no key. CI runs lint + tests on Python 3.11 and 3.13.
 
 ## How it works
 
